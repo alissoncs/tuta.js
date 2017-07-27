@@ -2,13 +2,17 @@
   "dependencies": {
     "assert": "^1.4.1"
   },
+  "devDependencies": {
+    "mocha": "^3.4.2"
+  },
   "name": "tuta.js",
   "version": "1.0.0",
   "main": "tuta.js",
   "repository": "git@github.com:alissoncs/tuta.js.git",
-  "author": "Alisson da Silva <alisson.silva@4all.com>",
+  "author": "Alisson da Silva <webalissoncs@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "nodemon tuta.js"
+    "start": "nodemon tuta.js",
+    "test": "mocha --watch"
   }
 }
