@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "assert": "^1.4.1"
+  },
+  "name": "tuta.js",
+  "version": "1.0.0",
+  "main": "tuta.js",
+  "repository": "git@github.com:alissoncs/tuta.js.git",
+  "author": "Alisson da Silva <alisson.silva@4all.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon tuta.js"
+  }
+}
