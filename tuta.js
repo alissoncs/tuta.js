@@ -1,4 +1,4 @@
-const cpf = require('./src/cpf/cpf.js')
+const cpf = require('./src/cpf')
 
 module.exports = {
   cpf,
